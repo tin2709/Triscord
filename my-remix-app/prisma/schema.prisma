@@ -1,0 +1,5 @@
+datasource db {
+  provider = "mysql" // <-- Đảm bảo đây là "mysql"
+  url      = env("DATABASE_URL")
+}
+// ... các model của bạn
